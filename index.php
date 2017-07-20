@@ -55,6 +55,20 @@
       } else {
         echo 'Rachels phone number is not a number you have memorized!';
       }
+
+      print_r(array_keys($phone_numbers)); //prints the 'keys' in phone_numbers
+      print_r(array_values($phone_numbers)); //prints the values of each key
+
+      //hello World
+      $hello = 'Hello World!';
+      $name = 'Bri';
+      $greeting = 'Good Morning $name and $hello';
+      $introduction = 'Nice to meet you ' . $name;
+
+      echo strlen($greeting); //string length
+      $games = ['Fallout 4', 'Sims 4', 'Syrim', 'Little Big Planet'];
+      $game_list = explode(',', $games); //breaks up string by declared divider
+      $games = implode(',', $game_list); 
     ?>
   </p>
 
