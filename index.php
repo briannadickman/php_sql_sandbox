@@ -68,7 +68,11 @@
       echo strlen($greeting); //string length
       $games = ['Fallout 4', 'Sims 4', 'Syrim', 'Little Big Planet'];
       $game_list = explode(',', $games); //breaks up string by declared divider
-      $games = implode(',', $game_list); 
+      $games = implode(',', $game_list);
+
+      for($i = 0; $i < count($vegetableArray); $i++){
+        echo $vegetableArray[$i] . "\n";
+      }
     ?>
   </p>
 
